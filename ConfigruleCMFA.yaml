@@ -64,19 +64,19 @@ proxies:
         Host: sg-1.hihu.net
     udp: true
   - name: AKUN3
-    server: quiz.int.vidio.com
-    port: 443
+    server: sg3.socifiles.com
+    port: 80
     type: vless
-    uuid: aae98731-898a-4cd3-8c7f-d09af2387d63
+    uuid: 5d3b9a50-6748-11f0-9824-1239d0255272
     cipher: auto
-    tls: true
+    tls: false
     skip-cert-verify: true
-    servername: id2vless.ipservers.xyz
+    servername: ""
     network: ws
     ws-opts:
-      path: /jagoanssh
+      path: /vlws
       headers:
-        Host: id2vless.ipservers.xyz
+        Host: ""
     udp: true
 
 proxy-groups:
