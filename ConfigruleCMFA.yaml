@@ -33,10 +33,10 @@ dns:
     - 112.215.203.254
 proxies:
   - name: AKUN1
-    server: quiz.int.vidio.com
+    server: sg3.socifiles.com
     port: 80
-    type: vmess
-    uuid: 396415b0-6f7d-4df3-9d50-1a3ff9115b1a
+    type: vless
+    uuid: 76fc5140-6732-11f0-930f-1239d0255272
     alterId: 0
     cipher: auto
     tls: false
