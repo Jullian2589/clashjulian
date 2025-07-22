@@ -41,12 +41,12 @@ proxies:
     cipher: auto
     tls: false
     skip-cert-verify: true
-    servername: zendesk1.appsflyer.com
+    servername: 123.xl.co.id
     network: ws
     ws-opts:
       path: /pwz1f3su
       headers:
-        Host: zendesk1.appsflyer.com
+        Host: 123.xl.co.id
     udp: true
 
 proxy-groups:
