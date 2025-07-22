@@ -48,6 +48,19 @@ proxies:
       headers:
         Host: 123.xl.co.id
     udp: true
+    - name: AKUN2
+    server: xl.co.id
+    port: 443
+    type: trojan
+    password: 9547e600-6737-11f0-8663-1239d0255272
+    skip-cert-verify: true
+    sni: sg3.6n6.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg3.6n6.net
+    udp: true
 
 proxy-groups:
   - name: ID-X
@@ -56,6 +69,7 @@ proxy-groups:
     interval: 300
     proxies:
       - AKUN1
+      - AKUN2
 
   - name: MIX-X
     type: fallback
@@ -63,6 +77,7 @@ proxy-groups:
     interval: 300
     proxies:
       - AKUN1
+      - AKUN2
       
   - name: IKLAN
     type: select
