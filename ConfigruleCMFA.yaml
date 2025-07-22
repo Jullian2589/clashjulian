@@ -40,15 +40,15 @@ proxies:
     cipher: auto
     tls: false
     skip-cert-verify: true
-    servername: ""
+    servername: fb.com
     network: ws
     ws-opts:
       path: /vlws
       headers:
-        Host: ""
+        Host: fb.com
     udp: true
   - name: AKUN2
-    server: xl.co.id
+    server: m.facebook.com
     port: 80
     type: vmess
     uuid: f6b485b0-6741-11f0-b239-205c6d5f5d78
