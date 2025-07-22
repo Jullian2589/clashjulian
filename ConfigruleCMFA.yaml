@@ -49,17 +49,19 @@ proxies:
         Host: 123.xl.co.id
     udp: true
     - name: AKUN2
-    server: xl.co.id
-    port: 443
-    type: trojan
-    password: 9547e600-6737-11f0-8663-1239d0255272
+    server: sg3.socifiles.com
+    port: 80
+    type: vless
+    uuid: 6dd4a380-673a-11f0-816d-1239d0255272
+    cipher: auto
+    tls: false
     skip-cert-verify: true
-    sni: sg3.6n6.net
+    servername: 123.xl.co.id
     network: ws
     ws-opts:
-      path: /howdy
+      path: /vlws
       headers:
-        Host: sg3.6n6.net
+        Host: 123.xl.co.id
     udp: true
 
 proxy-groups:
