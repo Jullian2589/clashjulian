@@ -33,19 +33,19 @@ dns:
     - 112.215.203.254
 proxies:
   - name: AKUN1
-    server: indo5.vpnjantit.com
-    port: 10002
+    server: vless-sg.listvpn.net
+    port: 2096
     type: vless
-    uuid: d4aeda98-67dc-11f0-9a77-00163e31dc3b
+    uuid: 70ab88b3-19a8-4488-9efa-c7feb578a07a
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: google.com
+    servername: fb.me
     network: ws
     ws-opts:
-      path: /vpnjantit
+      path: /ws
       headers:
-        Host: google.com
+        Host: fb.me
     udp: true
   - name: AKUN2
     server: vless-sg.listvpn.net
