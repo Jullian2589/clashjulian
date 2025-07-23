@@ -48,20 +48,19 @@ proxies:
         Host: google.com
     udp: true
   - name: AKUN2
-    server: m.facebook.com
-    port: 80
-    type: vmess
-    uuid: f6b485b0-6741-11f0-b239-205c6d5f5d78
-    alterId: 0
+    server: vless-sg.listvpn.net
+    port: 2096
+    type: vless
+    uuid: 70ab88b3-19a8-4488-9efa-c7feb578a07a
     cipher: auto
-    tls: false
+    tls: true
     skip-cert-verify: true
-    servername: sg-1.hihu.net
+    servername: ""
     network: ws
     ws-opts:
-      path: /rz3pmidf
+      path: /ws
       headers:
-        Host: sg-1.hihu.net
+        Host: ""
     udp: true
   - name: AKUN3
     server: id1go.ipservers.xyz
