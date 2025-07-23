@@ -64,19 +64,17 @@ proxies:
         Host: sg-1.hihu.net
     udp: true
   - name: AKUN3
-    server: sg3.socifiles.com
-    port: 80
-    type: vless
-    uuid: 5d3b9a50-6748-11f0-9824-1239d0255272
-    cipher: auto
-    tls: false
+  server: id1go.ipservers.xyz
+    port: 443
+    type: trojan
+    password: jagoanssh-jullian
     skip-cert-verify: true
-    servername: ""
+    sni: id1go.ipservers.xyz
     network: ws
     ws-opts:
-      path: /vlws
+      path: /trojan
       headers:
-        Host: ""
+        Host: id1go.ipservers.xyz
     udp: true
 
 proxy-groups:
