@@ -64,7 +64,7 @@ proxies:
         Host: sg-1.hihu.net
     udp: true
   - name: AKUN3
-  server: id1go.ipservers.xyz
+    server: id1go.ipservers.xyz
     port: 443
     type: trojan
     password: jagoanssh-jullian
