@@ -33,19 +33,19 @@ dns:
     - 112.215.203.254
 proxies:
   - name: AKUN1
-    server: sg3.socifiles.com
-    port: 80
+    server: indo5.vpnjantit.com
+    port: 10002
     type: vless
-    uuid: 6dd4a380-673a-11f0-816d-1239d0255272
+    uuid: d4aeda98-67dc-11f0-9a77-00163e31dc3b
     cipher: auto
-    tls: false
+    tls: true
     skip-cert-verify: true
-    servername: fb.com
+    servername: google.com
     network: ws
     ws-opts:
-      path: /vlws
+      path: /vpnjantit
       headers:
-        Host: fb.com
+        Host: google.com
     udp: true
   - name: AKUN2
     server: m.facebook.com
