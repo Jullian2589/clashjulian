@@ -40,7 +40,7 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: fb.me
+    servername: www.123.xl.co.id/min-balance
     network: ws
     ws-opts:
       path: /ws
@@ -60,7 +60,7 @@ proxies:
     ws-opts:
       path: /ws
       headers:
-        Host: ""
+        Host: "www.123.xl.co.id/min-balance"
     udp: true
   - name: AKUN3
     server: id1go.ipservers.xyz
@@ -68,7 +68,7 @@ proxies:
     type: trojan
     password: jagoanssh-jullian
     skip-cert-verify: true
-    sni: id1go.ipservers.xyz
+    sni: www.123.xl.co.id/min-balance
     network: ws
     ws-opts:
       path: /trojan
