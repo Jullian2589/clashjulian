@@ -33,34 +33,24 @@ dns:
     - 112.215.203.254
 proxies:
   - name: AKUN1
-    server: vless-sg.listvpn.net
-    port: 2096
+    server: asia1.fufo.org
+    port: 443
     type: vless
-    uuid: 70ab88b3-19a8-4488-9efa-c7feb578a07a
+    uuid: 276123b0-6cb9-11f0-b537-205c6d5f5d78
     cipher: auto
     tls: true
     skip-cert-verify: true
     servername: www.123.xl.co.id/min-balance
-    network: ws
-    ws-opts:
-      path: /ws
-      headers:
-        Host: fb.me
     udp: true
   - name: AKUN2
-    server: vless-sg.listvpn.net
-    port: 2096
+    server: asia1.fufo.org
+    port: 80
     type: vless
-    uuid: 70ab88b3-19a8-4488-9efa-c7feb578a07a
+    uuid: 276123b0-6cb9-11f0-b537-205c6d5f5d78
     cipher: auto
-    tls: true
+    tls: false
     skip-cert-verify: true
     servername: ""
-    network: ws
-    ws-opts:
-      path: /ws
-      headers:
-        Host: "www.123.xl.co.id/min-balance"
     udp: true
   - name: AKUN3
     server: id1go.ipservers.xyz
